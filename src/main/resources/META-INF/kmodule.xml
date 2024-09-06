@@ -1,0 +1,11 @@
+
+<!--<kmodule xmlns="http://www.drools.org/xsd/kmodule" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">-->
+<kmodule xmlns="http://www.drools.org/xsd/kmodule"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.drools.org/xsd/kmodule http://www.drools.org/xsd/kmodule.xsd">
+    <kbase name="rulesBase" packages="com.task.demo.process">
+        <ksession name="helloworld" type="stateful"/>
+        <ksession name="greet" type="stateful"/>
+        <ksession name="food" type="stateful"/>
+    </kbase>
+</kmodule>
